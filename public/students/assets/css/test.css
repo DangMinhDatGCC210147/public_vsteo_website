@@ -1,0 +1,164 @@
+html, body {
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden; */
+    font-size: 16px !important;
+}
+.overflow-auto {
+    overflow-y: auto !important;
+    z-index: 0;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    margin: 0 15px 22px 15px !important;
+}
+
+.navbar-custom .topbar {
+    width: 100%;  /* Đảm bảo thanh topbar chiếm đủ không gian ngang */
+}
+
+.topbar-menu {
+    flex-grow: 1;  /* Đảm bảo menu items dàn đều ra */
+}
+
+.card-header.navbar {
+    display: flex;  /* Sử dụng flexbox cho navbar */
+    justify-content: space-between;  /* Khoảng cách đều giữa các phần tử */
+    align-items: center;  /* Căn giữa các phần tử theo chiều dọc */
+    padding: 0.5rem 1rem;  /* Thêm padding cho thanh navbar */
+}
+
+.card-header.navbar h2, .card-header.navbar h5 {
+    margin: 0;  /* Xóa margin mặc định của heading */
+}
+
+.card-header.navbar h2 span {
+    vertical-align: middle;  /* Căn giữa badge với text */
+}
+
+.footer {
+    display: grid;
+    /* Using grid layout */
+    grid-template-columns: repeat(5, 1fr);
+    /* Five equal columns */
+    gap: 10px;
+    /* Space between columns */
+    justify-content: center;
+    margin-top: 0 !important;
+}
+
+.footer .skill-section {
+    display: flex;
+    /* Flex container for vertical stacking */
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    /* Center-align items */
+}
+
+.footer .btn-group {
+    display: flex;
+    /* Make button group a flex container */
+    justify-content: center;
+    /* Center buttons horizontally */
+    margin-bottom: 5px;
+    /* Space between buttons and timer */
+}
+
+.footer .btn {
+    padding: 5px 10px;
+    /* Adjust padding for buttons */
+    font-size: 12px;
+    /* Smaller font size for buttons */
+    margin-right: 5px;
+    /* Margin between buttons */
+}
+
+.footer .skill-timer {
+    font-size: 12px;
+    /* Smaller font size for timer */
+    color: #ffffff;
+    /* Lighter text color for less emphasis */
+}
+
+.flash-red {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: transparent;
+    }
+}
+
+
+.image-avatar{
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+}
+
+.image-avatar img{
+    height: 230px;
+}
+
+.caution, #prepTimer{
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prepTimer{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.note{
+    margin: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper {
+    padding-bottom: 100px; /* Space for the fixed footer */
+}
+
+
+.skill-content{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.radio-scaled {
+    transform: scale(1.5);
+    margin: 5px;
+}
+/* 
+.no-select {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+} */
+

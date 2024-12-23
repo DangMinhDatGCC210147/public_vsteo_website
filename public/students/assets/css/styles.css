@@ -1,0 +1,133 @@
+.swal2-container {
+    z-index: 1050 !important;
+}
+.swal2-title{
+    z-index: 1050 !important;
+}
+html{
+    position: relative;
+}
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #002379;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    font-size: 15px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 130px;
+
+}
+
+.information-structure-1{
+    margin: 100px 0 100px 0!important;
+}
+
+.test-structure,
+.audio-check,
+.notes {
+    /* background-color: #0056b3; */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.underline {
+    border-bottom: 1px solid #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    /* Make audio control span the full width */
+    margin-top: 15px;
+}
+
+.img-video {
+    height: 170px;
+    /* Cố định chiều cao là 200px */
+    width: 250px;
+    /* Cố định chiều rộng là 300px */
+    display: block;
+    /* Đảm bảo hình ảnh hiển thị dưới dạng block */
+    margin: 0 auto;
+    /* Canh giữa hình ảnh và thêm khoảng cách dưới 20px */
+}
+
+#sub-container {
+    padding: 0 200px 0 200px !important;
+}
+
+.skills {
+    padding: 0;
+    margin: 0;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.infor {
+    margin-top: 5px;
+}
+
+.card{
+    padding: 5px;
+    background-color: #FF5F00;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bi-1-square-fill, .bi-2-square-fill, .bi-3-square-fill{
+    font-size: 30px;
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center-banner{
+    padding-top: 20%;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between; /* Đảm bảo khoảng cách đều giữa các nút */
+    width: 100%; /* Chiều rộng tối đa của nhóm nút */
+}
+
+.btn-group .button_get {
+    flex: 0 0 50%; /* Không cho phép co giãn, đặt cơ sở là 50% */
+    padding: 0 5px; /* Thêm một chút padding nếu cần */
+}
+
+.btn-group .btn {
+    width: 100%; /* Đảm bảo nút mở rộng chiếm đầy chiều rộng có sẵn */
+}
+
+.notification{
+    margin-top: 10px;
+}
